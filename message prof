@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacter le professeur</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 40px;">
+
+    <div style="background-color: white; max-width: 450px; margin: auto; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+
+        <h2 style="color: #3f51b5; margin-bottom: 5px;">Envoyer un message</h2>
+        <p style="color: #777; margin-bottom: 20px;" id="prof-name">au Professeur</p>
+
+        <form action="#" method="post">
+
+            <label style="font-weight: bold; display: block; margin-bottom: 5px;">Nom :</label>
+            <input type="text" name="nom" placeholder="Votre nom"
+                style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+
+            <label style="font-weight: bold; display: block; margin-bottom: 5px;">Email :</label>
+            <input type="email" name="email" placeholder="votre@email.com"
+                style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;">
+
+            <label style="font-weight: bold; display: block; margin-bottom: 5px;">Message :</label>
+            <textarea name="message" rows="5" cols="30" placeholder="Écrivez votre message..."
+                style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; resize: vertical;"></textarea>
+
+            <input type="submit" value="Envoyer"
+                style="width: 100%; padding: 12px; background-color: #3f51b5; color: white; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer;">
+
+        </form>
+
+        <br>
+        <a href="emploi_du_temps.html" style="color: #3f51b5; font-size: 0.85rem;">← Retour à l'emploi du temps</a>
+
+    </div>
+
+    <script>
+        // Afficher le nom du prof depuis l'URL
+        const params = new URLSearchParams(window.location.search);
+        const prof = params.get('prof');
+        if (prof) {
+            document.getElementById('prof-name').textContent = 'à ' + decodeURIComponent(prof);
+        }
+    </script>
+
+</body>
+</html>
