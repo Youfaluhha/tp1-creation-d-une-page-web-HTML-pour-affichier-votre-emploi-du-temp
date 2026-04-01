@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Emploi du temps - S2</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 30px;">
+
+    <h2 style="text-align: center; color: #333;">Emploi du temps - Semestre 2</h2>
+
+    <table border="1" style="border-collapse: collapse; width: 100%; background-color: white;">
+
+        <tr style="background-color: #3f51b5; color: white;">
+            <th style="padding: 10px;">Heure</th>
+            <th style="padding: 10px;">Lundi</th>
+            <th style="padding: 10px;">Mardi</th>
+            <th style="padding: 10px;">Mercredi</th>
+            <th style="padding: 10px;">Jeudi</th>
+            <th style="padding: 10px;">Vendredi</th>
+            <th style="padding: 10px;">Samedi</th>
+        </tr>
+
+        <tr>
+            <td style="padding: 10px; font-weight: bold; background-color: #e0e0e0;">09h - 10h30</td>
+            <td style="padding: 10px; background-color: #e3f2fd; text-align: center;">
+                Python<br>
+                <a href="message_prof.html?prof=Pr.+M.laraqi">Pr. M.laraqi</a>
+            </td>
+            <td style="padding: 10px; background-color: #e3f2fd; text-align: center;">
+                Python TD<br>
+                <a href="message_prof.html?prof=Pr.+M.laraqi">Pr. M.laraqi</a>
+            </td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px; background-color: #fff8e1; text-align: center;">
+                Signal<br>
+                <a href="message_prof.html?prof=Pr.+H.azzahhafi">Pr. H.azzahhafi</a>
+            </td>
+            <td style="padding: 10px; background-color: #e8f5e9; text-align: center;">
+                Algèbre<br>
+                <a href="message_prof.html?prof=Pr.+I.boutaayamo">Pr. I.boutaayamo</a>
+            </td>
+            <td style="padding: 10px;"></td>
+        </tr>
+
+        <tr>
+            <td style="padding: 10px; font-weight: bold; background-color: #e0e0e0;">10h30 - 12h</td>
+            <td style="padding: 10px; background-color: #fce4ec; text-align: center;">
+                Algo C<br>
+                <a href="message_prof.html?prof=Pr.+H.oudani">Pr. H.oudani</a>
+            </td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px; background-color: #fff8e1; text-align: center;">
+                Signal TD<br>
+                <a href="message_prof.html?prof=Pr.+H.azzahhafi">Pr. H.azzahhafi</a>
+            </td>
+            <td style="padding: 10px; background-color: #fce4ec; text-align: center;">
+                Analyse<br>
+                <a href="message_prof.html?prof=Pr.+A.hadri">Pr. A.hadri</a>
+            </td>
+            <td style="padding: 10px;"></td>
+        </tr>
+
+        <tr>
+            <td style="padding: 10px; font-weight: bold; background-color: #e0e0e0;">12h15 - 13h45</td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px; background-color: #e0f7fa; text-align: center;">
+                IA<br>
+                <a href="message_prof.html?prof=Pr.+A.elouardi">Pr. A.elouardi</a>
+            </td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;"></td>
+        </tr>
+
+        <tr>
+            <td style="padding: 10px; font-weight: bold; background-color: #e0e0e0;">13h45 - 15h15</td>
+            <td style="padding: 10px; background-color: #fce4ec; text-align: center;">
+                Algo TD<br>
+                <a href="message_prof.html?prof=Pr.+H.oudani">Pr. H.oudani</a>
+            </td>
+            <td style="padding: 10px; background-color: #e0f7fa; text-align: center;">
+                IA TD<br>
+                <a href="message_prof.html?prof=Pr.+A.elouardi">Pr. A.elouardi</a>
+            </td>
+            <td style="padding: 10px; background-color: #fce4ec; text-align: center;">
+                Algo TD<br>
+                <a href="message_prof.html?prof=Pr.+H.oudani">Pr. H.oudani</a>
+            </td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px; background-color: #ede7f6; text-align: center;">
+                Web TD<br>
+                <a href="message_prof.html?prof=Pr.+K.omari">Pr. K.omari</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 10px; font-weight: bold; background-color: #e0e0e0;">15h30 - 17h</td>
+            <td style="padding: 10px; background-color: #e3f2fd; text-align: center;">
+                Python TD<br>
+                <a href="message_prof.html?prof=Pr.+M.laraqi">Pr. M.laraqi</a>
+            </td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px; background-color: #e8f5e9; text-align: center;">
+                Algèbre TD<br>
+                <a href="message_prof.html?prof=Pr.+I.boutaayamo">Pr. I.boutaayamo</a>
+            </td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px; background-color: #ede7f6; text-align: center;">
+                Web<br>
+                <a href="message_prof.html?prof=Pr.+K.omari">Pr. K.omari</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td style="padding: 10px; font-weight: bold; background-color: #e0e0e0;">17h - 18h30</td>
+            <td style="padding: 10px; background-color: #e3f2fd; text-align: center;">
+                Python TD<br>
+                <a href="message_prof.html?prof=Pr.+M.laraqi">Pr. M.laraqi</a>
+            </td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px; background-color: #fce4ec; text-align: center;">
+                Analyse TD<br>
+                <a href="message_prof.html?prof=Pr.+A.hadri">Pr. A.hadri</a>
+            </td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px;"></td>
+            <td style="padding: 10px; background-color: #ede7f6; text-align: center;">
+                Web TD<br>
+                <a href="message_prof.html?prof=Pr.+K.omari">Pr. K.omari</a>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
